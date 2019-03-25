@@ -35,9 +35,9 @@ To get started, create a database named `torque` and a user with permission to i
 
 ```sql
 CREATE DATABASE torque;
-CREATE USER 'steve'@'localhost' IDENTIFIED BY 'zissou';
-GRANT USAGE, FILE TO 'steve'@'localhost';
-GRANT ALL PRIVILEGES ON torque.* TO 'steve'@'localhost';
+CREATE USER 'torque'@'localhost' IDENTIFIED BY 'zissou';
+GRANT USAGE, FILE TO 'torque'@'localhost';
+GRANT ALL PRIVILEGES ON torque.* TO 'torque'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
